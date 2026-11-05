@@ -8,10 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap&text=%200123456789%EA%B8%88%EB%82%B8%EB%AA%A9%EB%B3%B4%EC%88%98%EC%97%90%EC%9A%94%EC%9B%94%EC%9D%BC%EC%B0%A8%ED%86%A0%ED%8A%B8%ED%99%94');
 
 /* Ghost page frame (Source theme): no title block, the card spans the whole width,
-   and no line under the menu, so the header and the hero read as one dark block */
+   no line under the menu and no gap above the footer, so the header and the hero read as one dark block */
 .gh-article-header { display: none !important; }
 .gh-content > #wednesdata-home { grid-column: 1 / -1; margin: 0 !important; max-width: none; }
 .gh-navigation.is-stacked .gh-navigation-menu::after { display: none; }
+/* At / Ghost renders the page with home-template, not page-template, so the theme's 120px gap above the footer
+   (removed only for .page-template) comes back; the collaboration band should sit right on the footer */
+.gh-footer { margin-top: 0 !important; }
 
 /* Until home.js has placed home.html: hold the hero's space in the header colour. The form waits out of sight,
    and shows on its own after 3 seconds in case home.js never runs */

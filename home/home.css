@@ -81,7 +81,10 @@
 #wednesdata-home .wd-pen-date { color: #ffcc00; }
 #wednesdata-home .wd-latest-title { margin-top: 8px; font-size: 18px; line-height: 1.5; font-weight: 700; color: #ffffff; }
 #wednesdata-home .wd-latest-title:hover { text-decoration: underline; }
-#wednesdata-home .wd-latest-data { margin-top: 2px; font-size: 14px; line-height: 1.5; color: #a8a8a8; }
+#wednesdata-home .wd-latest-meta { margin-top: 2px; display: flex; flex-wrap: wrap; gap: 0 12px; font-size: 14px; line-height: 1.5; }
+#wednesdata-home .wd-latest-data { color: #a8a8a8; }
+#wednesdata-home .wd-latest-read { font-weight: 700; color: #ffffff; }
+#wednesdata-home .wd-latest-read:hover { text-decoration: underline; }
 /* An issue without a feature image gets a dark card with its data name instead of a chart */
 #wednesdata-home .wd-noimg { aspect-ratio: 3 / 4; display: flex; align-items: center; justify-content: center; padding: 24px; border-radius: 6px; background: #1b1b1b; color: #ffffff; font-size: 18px; font-weight: 700; line-height: 1.5; text-align: center; }
 
@@ -111,6 +114,7 @@
 
 /* Collaboration band, right above the theme's dark footer */
 #wednesdata-home .wd-collab { padding: 64px 0; background: #f4f4f4; }
+#wednesdata-home .wd-collab-white { background: #ffffff; border-top: 1px solid #e6e6e6; }
 #wednesdata-home .wd-collab-in { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 48px; }
 #wednesdata-home .wd-collab-text { flex: 1 1 520px; min-width: 0; }
 #wednesdata-home .wd-label { font-size: 13px; font-weight: 700; line-height: 1.5; color: #737373; }
@@ -131,14 +135,21 @@
   #wednesdata-home .wd-sec { padding: 64px 0; }
   #wednesdata-home h2 { font-size: 24px; }
   #wednesdata-home .wd-hero { padding: 40px 0 56px; }
-  #wednesdata-home .wd-hero-in { row-gap: 40px; }
   #wednesdata-home .wd-eyebrow { font-size: 14px; }
   #wednesdata-home .wd-hero h1 { margin-top: 12px; font-size: 34px; line-height: 1.28; }
   #wednesdata-home .wd-lead { margin-top: 20px; font-size: 16px; }
   #wednesdata-home .wd-signup { margin-top: 28px; }
   #wednesdata-home .wd-form-row { flex-direction: column; }
   #wednesdata-home .wd-btn { width: 100%; }
-  #wednesdata-home .wd-latest { max-width: none; }
+  /* The chart goes between the title and the lead, narrower, so it is the first thing after the headline */
+  #wednesdata-home .wd-hero-text { display: contents; }
+  #wednesdata-home .wd-eyebrow { order: 1; }
+  #wednesdata-home .wd-hero h1 { order: 2; margin-top: 0; }
+  #wednesdata-home .wd-latest { order: 3; max-width: 320px; margin: 0 auto; width: 100%; }
+  #wednesdata-home .wd-lead { order: 4; margin-top: 0; }
+  #wednesdata-home .wd-signup { order: 5; margin-top: 0; }
+  #wednesdata-home .wd-fallback { order: 6; margin-top: 0; }
+  #wednesdata-home .wd-hero-in { row-gap: 24px; }
   #wednesdata-home .wd-pen { font-size: 26px; }
   #wednesdata-home .wd-format { margin-top: 32px; grid-template-columns: minmax(0, 1fr); gap: 36px; }
   #wednesdata-home .wd-format h3 { font-size: 19px; }

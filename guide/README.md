@@ -8,7 +8,7 @@ claude.ai 'Wednesdata' 프로젝트에서 Claude가 작업할 때 읽는 규칙 
 | [charts.md](charts.md) | 리드 차트를 별도 제작·재가공하거나 본문 보조 차트를 그릴 때 |
 | [derivatives.md](derivatives.md) | 노트, 링크드인, 인스타그램 이미지 게시물, 커뮤니티 공유, 데이터 카탈로그(리드 차트 데이터셋 엑셀) |
 | [motion.md](motion.md) | 인스타그램 릴스(움직이는 차트·흐르는 차트) |
-| [scan.md](scan.md) | 소재 스캔과 공모·지원 기회. 목요일 예약 작업도 이 파일을 읽습니다 |
+| [scan.md](scan.md) | 소재 스캔과 공모·지원 기회. 목요일 예약 작업의 지시문에도 같은 규칙이 있어 함께 고칩니다 |
 | [examples/](examples/) | 표준 구조의 완성 예시(분량·밀도·리듬 기준) |
 | [CHANGELOG.md](CHANGELOG.md) | 규칙이 왜 생겼는지. 새 변경은 맨 위에 한 항목 |
 

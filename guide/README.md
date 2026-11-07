@@ -15,7 +15,8 @@ claude.ai 'Wednesdata' 프로젝트에서 Claude가 작업할 때 읽는 규칙 
 ## 읽는 법
 
 - 저장소가 대화에 연결돼 있으면 파일을 직접 읽습니다.
-- 아니면 `https://raw.githubusercontent.com/yehwanhwang/wednesdata/main/guide/<파일>`을 엽니다. 저장소가 공개라 로그인 없이 읽힙니다.
+- 아니면 저장소를 붙인 뒤 `gh api repos/yehwanhwang/wednesdata/contents/guide/<파일> -H "Accept: application/vnd.github.raw"`로 원문을 읽습니다.
+- WebFetch는 원문 대신 요약을 돌려주고, Claude 작업 공간의 셸에서는 raw.githubusercontent.com이 막혀 있어 둘 다 쓰지 않습니다(2026-11-07 확인).
 
 ## 고치는 법
 

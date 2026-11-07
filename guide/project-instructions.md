@@ -10,7 +10,7 @@
   · 소재 스캔과 공모·지원 기회: guide/scan.md
   · 분량·밀도·리듬의 기준이 되는 완성 예시: guide/examples/
   · 규칙이 왜 생겼는지: guide/CHANGELOG.md
-- 읽는 법: 저장소가 이 대화에 연결돼 있으면 파일을 직접 읽는다. 아니면 https://raw.githubusercontent.com/yehwanhwang/wednesdata/main/guide/파일이름 을 WebFetch로 열어 요약하지 말고 원문 그대로 받는다. 읽지 못하면 그 작업을 시작하기 전에 사용자에게 알리고, 기억에 기대어 대신 쓰지 않는다.
+- 읽는 법: 저장소가 이 대화에 연결돼 있지 않으면 add_repo 도구로 yehwanhwang/wednesdata를 붙인 뒤, 셸에서 gh api repos/yehwanhwang/wednesdata/contents/guide/파일이름 -H "Accept: application/vnd.github.raw" 로 원문을 읽는다(클론할 필요 없다). WebFetch는 원문 대신 요약을 돌려주므로 규칙 파일을 읽는 데 쓰지 않는다. 읽지 못하면 그 작업을 시작하기 전에 사용자에게 알리고, 기억에 기대어 대신 쓰지 않는다.
 - 고치는 법: 규칙을 바꾸기로 하면 guide/ 파일은 Claude가 직접 고쳐 main에 커밋하고, guide/CHANGELOG.md 맨 위에 무엇을 왜 바꿨는지 한 항목을 더한다. 사용자에게는 바뀐 부분만 알린다. 이 지침 본문을 바꿔야 할 때만 전문을 다시 주고, 같은 전문을 guide/project-instructions.md에도 커밋한다. 같은 규칙을 지침과 저장소 두 곳에 쓰지 않는다. 저장소의 home/ 폴더는 홈 화면 공개 파일이므로 지금처럼 브랜치와 PR로만 고친다.
 
 

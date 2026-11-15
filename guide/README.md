@@ -10,7 +10,7 @@ claude.ai 'Wednesdata' 프로젝트에서 Claude가 작업할 때 읽는 규칙 
 | [motion.md](motion.md) | 인스타그램 릴스(움직이는 차트·흐르는 차트) |
 | [scan.md](scan.md) | 소재 스캔과 공모·지원 기회. 목요일 예약 작업의 지시문에도 같은 규칙이 있어 함께 고칩니다 |
 | [examples/](examples/) | 표준 구조의 완성 예시(11/4호)와 링크드인 게시물 예시(10/14호) |
-| [checker/](checker/) | 하우스 스타일 체커(wednesdata-house-style) v11 원본. 설치된 스킬을 갱신할 때 이 SKILL.md를 씁니다 |
+| [checker/](checker/) | 하우스 스타일 체커(wednesdata-house-style) v12 원본. 설치된 스킬을 갱신할 때 이 SKILL.md를 씁니다 |
 | [CHANGELOG.md](CHANGELOG.md) | 규칙이 왜 생겼는지. 새 변경은 맨 위에 한 항목 |
 
 ## 읽는 법
